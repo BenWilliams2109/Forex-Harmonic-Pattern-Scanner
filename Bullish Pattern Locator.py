@@ -3,7 +3,7 @@ import numpy as np
 from scipy.signal import argrelextrema
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r"C:\Users\Ben\Downloads\GBPCHF_Ticks_10.08.2020-10.08.2020.csv")
+data = pd.read_csv(r"C:\Users\Ben\PycharmProjects\FinTech\GBPCHF_Ticks_10.08.2020-10.08.2020.csv") #File path needs to be changed to wherever the historical data is downloaded
 
 data.columns = ["Date", "open", "close", "Ask_vol", "Bid_vol"]
 
